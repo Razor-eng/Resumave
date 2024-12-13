@@ -25,10 +25,12 @@ const preview = url => {
 };
 
 function formatName(name) {
+    if (!name) return 'Resume';
+
     const nameParts = name?.split(' ');
 
     // Check if the last name length is 3 characters
-    const lastName = nameParts[nameParts.length - 1];
+    const lastName = nameParts[nameParts?.length - 1];
     if (nameParts?.length === 3) {
         // If the last name has length 3, return first and last name with underscore
         return `${nameParts[0]}_${lastName}_Resume`;
@@ -48,7 +50,7 @@ const Preview = () => {
         if (resumeData.saved) updateInstance(document);
     }, [resumeData.saved]);
 
-    const fileName = formatName(resumeData.contact?.name) || 'Resume';
+    const fileName = formatName(resumeData.contact?.name);
 
     return (
         <div ref={parentRef} className="relative w-full md:max-w-[24rem] 2xl:max-w-[28rem]">
