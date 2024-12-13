@@ -210,9 +210,9 @@ const Resume = ({ data }) => {
                     </Section>
                 )}
 
-                {education.length > 0 && <Education data={education} />}
-                {experience.length > 0 && <Experience data={experience} />}
-                {projects.length > 0 && <Projects data={projects} />}
+                {education?.length > 0 && <Education data={education} />}
+                {experience?.length > 0 && <Experience data={experience} />}
+                {projects?.length > 0 && <Projects data={projects} />}
 
                 {skills?.skills?.length > 0 && <Skills data={skills.skills} />}
                 {certificates?.length > 0 && <Certificaes data={certificates} />}

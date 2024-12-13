@@ -29,7 +29,7 @@ function formatName(name) {
 
     // Check if the last name length is 3 characters
     const lastName = nameParts[nameParts.length - 1];
-    if (nameParts.length === 3) {
+    if (nameParts?.length === 3) {
         // If the last name has length 3, return first and last name with underscore
         return `${nameParts[0]}_${lastName}_Resume`;
     } else {
