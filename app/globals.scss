@@ -15,7 +15,8 @@
 
         &-filled {
             @extend .btn;
-            @apply border-primary-500 bg-primary-400 text-gray-900;
+            // @apply border-primary-500 bg-primary-400 text-gray-900;
+            @apply border-indigo-500 bg-indigo-300 text-gray-900;
         }
     }
 
@@ -26,7 +27,8 @@
 
 @layer utilities {
     .gradient {
-        @apply bg-gradient-to-r from-primary-400 to-green-400;
+        // @apply bg-gradient-to-r from-primary-400 to-green-400;
+        @apply bg-gradient-to-r from-indigo-500 to-purple-400;
     }
 
     .text-gradient {
@@ -51,10 +53,10 @@
     }
 
     &-thumb {
-        @apply bg-primary-500 rounded-sm;
+        @apply bg-purple-500 rounded-sm;
 
         &:hover{
-            @apply bg-primary-500;
+            @apply bg-purple-600;
         }
     }
 

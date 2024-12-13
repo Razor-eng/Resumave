@@ -35,7 +35,7 @@ const page = () => {
                         <IoIosRocket />
                     </Link>
 
-                    <a href="https://github.com/razor-eng/resumave-2024" className="btn w-full md:w-auto">
+                    <a href="https://github.com/razor-eng/resumave" className="btn w-full md:w-auto">
                         <span>View Source</span>
                         <FaGithub />
                     </a>
