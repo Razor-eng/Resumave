@@ -17,12 +17,12 @@ const Header = ({ data }) => {
             value: `mailto:${data['email']}`,
         },
         {
-            name: `linkedin.com/${data['linkedin'].split('/').pop()}`,
+            name: `linkedin.com/${data['linkedin']?.split('/').pop()}`,
             // name: `LinkedIn`,
             value: data['linkedin'],
         },
         {
-            name: `github.com/${data['github'].split('/').pop()}`,
+            name: `github.com/${data['github']?.split('/').pop()}`,
             // name: 'Github',
             value: data['github'],
         },

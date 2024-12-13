@@ -25,7 +25,7 @@ const preview = url => {
 };
 
 function formatName(name) {
-    const nameParts = name.split(' ');
+    const nameParts = name?.split(' ');
 
     // Check if the last name length is 3 characters
     const lastName = nameParts[nameParts.length - 1];
