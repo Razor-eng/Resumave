@@ -6,7 +6,7 @@
 <h3 align="center">An ATS-friendly resume maker</h3>
 
 <p align="center">
- <a href="https://resumave.vercel.app/">View Demo</a>
+ <a href="https://resumavee.vercel.app">View Demo</a>
     ·
     <a href="https://github.com/devXprite/resumave/issues/new?assignees=&labels=bug&template=bug_report.md&title=">Report Bug</a>
 </p>
@@ -42,7 +42,7 @@ If you want to run Resumave locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-    git clone https://github.com/devxprite/resumave.git
+    git clone git@github.com:Razor-eng/Resumave.git
    ```
 
 2. Navigate to the project directory:
@@ -66,7 +66,7 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 
 
 ## Usage
-To use Resumave, simply visit [resumave.vercel.app](https://resumave.vercel.app) and start filling out your details. Once complete, you can export your resume in PDF format.
+To use Resumave, simply visit [resumavee.vercel.app](https://resumavee.vercel.app) and start filling out your details. Once complete, you can export your resume in PDF format.
 
 ## License
 This project is licensed under the MIT License. see the LICENSE file for details.
